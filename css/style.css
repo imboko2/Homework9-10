@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 600px;
+    height: 400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+
+.jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 2px;
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+.sel{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.inpu {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.lab {
+    cursor: pointer;
+}
+.lab:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("http://xiper.net/examples/html-and-css-tricks/forms/img/checkbox-2.png") ;
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+.inpu:checked + .lab:after {
+    background-position: 0 -17px;
+}
+.lab:hover:after {
+    background-position: 0 -34px;
+}
+.inpu:checked + .lab:hover:after {
+    background-position: 0 -51px;
+}
+.inp{
+    clear: both;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+form {
+    margin: 50px;
+    background: #99CCFF;
+    padding: 10px;
+}
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url("http://xiper.net/examples/html-and-css-tricks/forms/img/checkbox.png");
+    overflow: hidden;
+}
+.niceChecked {
+    background-position: 0 -17px;
+}
+.niceCheck input {
+    margin-left: -100px;
+}
+div {
+    margin-bottom: 10px;
+}
+.niceCheckDisabled {
+    background-image: url("http://xiper.net/examples/html-and-css-tricks/forms/img/checkbox-disabled.png");
+}
+
+
+.men{
+    height: 800px;
+    width: 500px;
+}
+
+nav {
+    background-color:rgb(255,100,100);
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+
+nav li ul {
+    background-color:rgb(225,75,75);
+    position:absolute;
+    left:0;
+    top:40px;
+    width:200px;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+/* style all links */
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color:rgb(50,50,50);
+}
+
+/* style sub level links */
+nav li li a {
+    border-bottom:solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+ul.sub-menu {
+    display:none;
+}
+
+/* show arrows for dropdowns */
+nav li.dropdown > a {
+    background-image:url('http://callmenick.com/_development/slide-down-menu/img/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('http://callmenick.com/_development/slide-down-menu/img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
